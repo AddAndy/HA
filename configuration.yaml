@@ -66,6 +66,9 @@ tts:
 # Cloud
 cloud:
 
+ecobee:
+  api_key: !secret ecobee_apikey
+  
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
